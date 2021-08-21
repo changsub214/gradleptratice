@@ -29,5 +29,5 @@ jobs:
         status: ${{job.status}}
         author_name: Test
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} #please
         SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
